@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import "./slider.scss";
 import ImgComp from "./ImgComp";
-import i1 from "./pics/1";
-import i2 from "./pics/2";
-import i3 from "./pics/3";
-import i4 from "./pics/4";
-import i5 from "./pics/5";
+import i1 from "./pics/univers.jpg";
+import i2 from "./pics/nasa.jpg";
+import i3 from "./pics/starwars.jpg";
+import i4 from "./pics/alienscar.jpg";
+import i5 from "./pics/alien.jpg";
 
 function Slider(){
     const [x, setX] = useState(0);
