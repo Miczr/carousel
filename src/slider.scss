@@ -17,9 +17,9 @@
 
 .slide{
     position: relative;
-    border: 1px solid blue;
+    border: none;
     min-width: 100%;
-    height: 80%;
+    height: 100%;
     transition: 0.5s;
     overflow: hidden;
 }
@@ -28,14 +28,14 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 10%;
-    height: 80%;
+    width: 5%;
+    height: 5%;
     background: none;
     border: none;
     outline: none;
     transition: 0.5s;
     &:hover{
-        background: rgba(0, 0, 0, 0.356);
+        background: grey;
         cursor: pointer;
         i{
             color: withesmoke;
